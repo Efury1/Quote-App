@@ -1,0 +1,75 @@
+
+#quote-box{
+    background-color:white;
+    text-align: center;
+    width:900px;
+    border-radius: 40px;
+    padding: 45px 50px;
+    box-shadow: -5px -1px 48px -14px rgba(0 , 0 ,0 , 0.75);
+    -webkit-box-shadow: -5px -1px 48px -14px rgba(0 , 0 ,0 , 0.75);
+    -moz-box-shadow: -5px -1px 48px -14px rgba(0 , 0 ,0 , 0.75);
+}
+
+.quote-text{
+    font-size: 4rem;
+    text-align:center;
+    margin-right: 10px;
+}
+
+.quote-author{
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+button {
+    display: inline-block;
+    margin: 5rem;
+    padding: 30px 30px;
+    border-radius: 8px;
+    font-size: 40px;
+    line-height: 1;
+    background-color: #fee6e3;
+    border: 5px solid pink;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: pink;
+    cursor: pointer;
+    font-family: "Comic Sans MS"
+}
+
+
+button:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+}
+
+button:hover:after {
+  transform: translate(0, 0);
+}
+
+button:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+button:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
