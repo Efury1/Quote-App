@@ -39,37 +39,3 @@ button {
     cursor: pointer;
     font-family: "Comic Sans MS"
 }
-
-
-button:after {
-  background-color: #111;
-  border-radius: 8px;
-  content: "";
-  display: block;
-  height: 48px;
-  left: 0;
-  width: 100%;
-  position: absolute;
-  top: -2px;
-  transform: translate(8px, 8px);
-  transition: transform .2s ease-out;
-}
-
-button:hover:after {
-  transform: translate(0, 0);
-}
-
-button:active {
-  background-color: #ffdeda;
-  outline: 0;
-}
-
-button:hover {
-  outline: 0;
-}
-
-@media (min-width: 768px) {
-  .button-56 {
-    padding: 0 40px;
-  }
-}
