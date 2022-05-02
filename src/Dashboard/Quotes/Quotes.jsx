@@ -3,8 +3,6 @@ import QuotesText from "../Components/QuotesText";
 import QuotesAuthor from "../Components/QuotesAuthor";
 import Buttons from "../Components/Buttons";
 import "../Quotes/Quotes.css"
-import axios from "axios";
-
 
 class Quotes extends Component {
 
@@ -14,10 +12,6 @@ class Quotes extends Component {
      quotesData: [],
      color: "rgb(112, 209, 254)",
    };
-
-   fetchQuotes=() => {
-
-   }
 
    render() {
      return
